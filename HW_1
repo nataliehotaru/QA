@@ -25,10 +25,19 @@
               4.1 Некорректные названия, представленные в дизайне.
               4.2 При условии, что в пункте 3 был выбран формат "PDF", не обозначен список ориентаций предназначенных для "FirmManager".
               4.3 Отсутствуют требования к цвету границ двух равнозначных опций. Двусмысленность.
+              4.4 Отсутствует выравнивание в данной секции.
               
         5. "Create View" button
         
               5.1 Отсутствие данной кнопки в представленном дизайне.
-              5.2 
+              5.2 При выходе за лимит обозначенного количества символов не указано какое конкретно сообщение должно отобразиться на экране.
+              5.3 Для двух различных ошибок (лимит символов и не уникальное имя) одинаковое визуальное отображение, не конкретизирующее какая ошибка была допущена.
               
+              
+  II. Написать 3 User stories.
+  
+  
+        1. As a FirmManager I want to see a red border around textbox, so that I can understand that I've made a mistake while filling this field.
+        2. As an Adviser I want Orientation format to be hidden in case I've previously chosen PDF format, so that I don't have an ability to choose extra options.
+        3. As a FirmManager I want to be taken to my Report Builder Page after clicking "Create view" button, so that I can understand that saving went well. 
  
